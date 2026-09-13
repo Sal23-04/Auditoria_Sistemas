@@ -33,9 +33,9 @@ Para auditar una empresa con este perfil, propongo abordar la revisión en este 
 ### Justificación de la secuencia
 Al ser un proveedor de servicios tecnológicos outsourcing, la auditoría debe empezar revisando cómo se toman las decisiones estratégicas desde arriba (gobierno), seguir con la protección de los activos de información de los clientes (seguridad) y terminar en la ejecución del trabajo diario (operaciones).
 
-* **1. COBIT (Primero):** Antes de revisar servidores o tickets, hay que auditar la gobernanza. Necesitamos confirmar si la directiva de LSG tiene alineados sus planes de TI en Colombia con las exigencias normativas y comerciales que piden los clientes en Estados Unidos, además de cómo priorizan y gestionan el presupuesto tecnológico.
-* **2. ISO/IEC 27001 + NIST CSF (Segundo):** El activo fundamental de LSG es la confianza y la información de terceros. Al auditar con ISO 27001 revisamos que existan políticas claras para mantener la confidencialidad e integridad de esos datos. Nos apoyamos en NIST CSF para evaluar la capacidad técnica de detectar, responder y recuperarse ante incidentes o ciberataques.
-* **3. ITIL (Tercero):** Con la dirección y la seguridad auditadas, nos enfocamos en la operación cotidiana. ITIL sirve para comprobar que la mesa de ayuda, el soporte de infraestructura y el mantenimiento del software funcionen de manera estable y cumplan los tiempos comprometidos en los SLA.
+* **1. COBIT:** Antes de revisar servidores o tickets, hay que auditar la gobernanza. Necesitamos confirmar si la directiva de LSG tiene alineados sus planes de TI en Colombia con las exigencias normativas y comerciales que piden los clientes en Estados Unidos, además de cómo priorizan y gestionan el presupuesto tecnológico.
+* **2. ISO/IEC 27001 + NIST CSF:** El activo fundamental de LSG es la confianza y la información de terceros. Al auditar con ISO 27001 revisamos que existan políticas claras para mantener la confidencialidad e integridad de esos datos. Nos apoyamos en NIST CSF para evaluar la capacidad técnica de detectar, responder y recuperarse ante incidentes o ciberataques.
+* **3. ITIL:** Con la dirección y la seguridad auditadas, nos enfocamos en la operación cotidiana. ITIL sirve para comprobar que la mesa de ayuda, el soporte de infraestructura y el mantenimiento del software funcionen de manera estable y cumplan los tiempos comprometidos en los SLA.
 
 ---
 
