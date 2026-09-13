@@ -1,61 +1,54 @@
-# Taller: elige el marco correcto para tu auditoría
+# Taller: Elección de marcos para auditoría de sistemas
 
 **Docente:** Juan Duque  
-
-### Integrantes del Grupo:
-* Salomon Camargo Londoño
+**Estudiante:** Salomón Camargo Londoño  
 
 ---
 
-## 1. Organización y Caso Elegido
+## 1. Empresa seleccionada
 
 * **Organización:** Lean Solutions Group (LSG)
-* **Sector:** Servicios Nearshore / BPO, soluciones tecnológicas y gestión operativa para empresas internacionales (principalmente de logística, transporte y servicios financieros en EE. UU.).
+* **Sector:** Nearshoring, BPO y soluciones de TI enfocadas en logística, transporte y finanzas para empresas en EE. UU.
 
 ---
 
-## 2. Descripción del Contexto
+## 2. Contexto del negocio
 
-Lean Solutions Group es un proveedor multinacional de servicios *nearshore* que ofrece soluciones de personal, desarrollo de software (LeanTek), automatizaciones de IA y BPO para más de 500 clientes internacionales en sectores críticos como logística, finanzas y salud. Maneja ecosistemas de TI complejos que incluyen ERP corporativos (*Microsoft Dynamics 365 F&O*), plataformas en la nube (*Azure / Power Platform*), herramientas de monitorización y sistemas de telecomunicaciones (*IP-PBX/BPO*). Sus principales riesgos son el cumplimiento regulatorio estricto en la transferencia transfronteriza y confidencialidad de datos, fallas en la continuidad operativa, e interrupciones en el servicio que impacten la reputación y causen sanciones financieras.
-
----
-
-## 3. Marcos Elegidos y Orden de Aplicación
-
-Para auditar de forma integral a Lean Solutions Group, se adopta un enfoque híbrido en la siguiente secuencia de aplicación:
-
-1. **COBIT (Nivel Estratégico y Gobierno de TI):** Se aplica en primer lugar.
-2. **ISO/IEC 27001 (Nivel de Seguridad de la Información y Cumplimiento):** Se aplica en segundo lugar.
-3. **ITIL (Nivel Operativo y Gestión de Servicios):** Se aplica en tercer lugar.
-4. **NIST Cybersecurity Framework (NIST CSF - Referencia Complementaria de Segundo Nivel):** Se aplica como apoyo especializado técnico al marco ISO.
+Lean Solutions Group le presta servicios de BPO, desarrollo de software (LeanTek), automatización e infraestructura a más de 500 clientes internacionales en áreas como salud y logística. Su operación depende de sistemas como Microsoft Dynamics 365, servicios en Azure/Power Platform, telefonía IP y herramientas de monitoreo. Los riesgos más importantes que enfrentan son el manejo de datos sensibles entre fronteras (cumpliendo HIPAA, GDPR y acuerdos de confidencialidad), la caída de servicios críticos que afecten los SLA 24/7 y la exposición a multas o pérdida de clientes por fallas de seguridad.
 
 ---
 
-## 4. Justificación de la Selección y Secuencia Lógica
+## 3. Marcos seleccionados y secuencia propuesta
 
-### ¿Por qué esta combinación?
-Al ser un operador BPO y tecnológico global, la auditoría debe garantizar primero que las metas de TI están alineadas con los objetivos de negocio del cliente (Gobierno), asegurar que los datos sensibles manejados desde sedes satélites operan bajo estándares estrictos de ciberseguridad (Seguridad), y garantizar la entrega ininterrumpida de servicios de mesa de ayuda y soporte (Operación).
+Para auditar una empresa con este perfil, propongo abordar la revisión en este orden:
 
-### Justificación del Orden:
-
-* **1. COBIT (Primero):** Es necesario evaluar la gobernanza integral desde la alta dirección antes de bajar a los aspectos técnicos. COBIT permite auditar si la junta directiva y el equipo directivo de LSG tienen una visión clara de los riesgos tecnológicos corporativos, la gestión del presupuesto de TI y el alineamiento estratégico entre sus operaciones en Colombia y las exigencias normativas de sus clientes en EE. UU.
-* **2. ISO/IEC 27001 + NIST CSF (Segundo):** Dado que Lean Solutions Group gestiona información privada y sensible de terceros (datos financieros, logística y salud), el mayor riesgo reputacional y legal radica en las brechas de seguridad. Una vez evaluada la gobernanza con COBIT, se audita el Sistema de Gestión de Seguridad de la Información (SGSI) bajo ISO/IEC 27001 para validar la confidencialidad, integridad y disponibilidad de la información, apoyándonos en los 5 pilares de NIST CSF (Identificar, Proteger, Detectar, Responder, Recuperar) para evaluar la postura ante ciberataques.
-* **3. ITIL (Tercero):** Con la gobernanza establecida y los controles de seguridad validados, se pasa al nivel operativo. ITIL permite auditar la calidad, estabilidad y gestión de los servicios de TI (gestión de incidentes, solicitudes de servicio, cambios en plataformas de software y monitoreo de SLAs contractuales de los clientes).
+1. **COBIT:** Nivel directivo / Gobierno de TI
+2. **ISO/IEC 27001 (junto con NIST CSF):** Nivel de ciberseguridad y protección de información
+3. **ITIL:** Nivel operativo y entrega de servicios
 
 ---
 
-## 5. Evidencia Propuesta por Marco
+## 4. Por qué estos marcos y por qué en este orden
 
-### A. Evidencia para COBIT (Gobierno y Alineación Estratégica)
-* **Evidencia 1 (Alineación Estratégica - Marco EDM01/APO02):** Actas del Comité Directivo de TI y Matriz de Alineación Estratégica donde se evidencia la aprobación del plan de inversión tecnológica alineado con las metas de expansión multinacional y cumplimiento normativo corporativo.
-* **Evidencia 2 (Gestión de Riesgos de TI - Marco APO12):** Matriz de Riesgos Corporativos de TI (*IT Risk Register*) actualizada, con la clasificación de riesgos cibernéticos, impactos financieros definidos, planes de mitigación aprobados por el CISO y actas de revisión trimestral.
+### Justificación de la secuencia
+Al ser un proveedor de servicios tecnológicos outsourcing, la auditoría debe empezar revisando cómo se toman las decisiones estratégicas desde arriba (gobierno), seguir con la protección de los activos de información de los clientes (seguridad) y terminar en la ejecución del trabajo diario (operaciones).
 
-### B. Evidencia para ISO/IEC 27001 + NIST CSF (Seguridad de la Información)
-* **Evidencia 1 (Control de Acceso y Gestión de Identidades - Anexo A.9 / NIST PR.AC):** Matriz de Roles y Permisos en el ERP corporativo (*Microsoft Dynamics 365*) y en el Active Directory, acompañada de las trazabilidades/logs de auditoría de revisiones semestrales de privilegios y el uso obligatorio de Autenticación de Múltiple Factor (MFA) para acceso remoto.
-* **Evidencia 2 (Continuidad de Seguridad y Respuesta a Incidentes - Anexo A.17 / NIST RS.RP):** Plan de Respuesta a Incidentes de Ciberseguridad y Políticas de Copias de Seguridad (*Backup*), junto con los informes firmados del último simulacro de *Ransomware* / prueba de recuperación de desastres (DRP) realizado en los entornos en la nube de la empresa.
-
-### C. Evidencia para ITIL (Gestión de Servicios de TI)
-* **Evidencia 1 (Gestión de Incidentes y Cumplimiento de SLAs):** Reportes mensuales extraídos de la herramienta de *Service Desk* (ej. ServiceNow o Jira Service Management) que muestren el volumen de tickets de soporte, los tiempos promedios de primera respuesta, el porcentaje de resolución en primer nivel y el indicador de cumplimiento de los Acuerdos de Nivel de Servicio (SLA) comprometidos con los clientes.
-* **Evidencia 2 (Gestión de Cambios - Change Enablement):** Registros y actas del Comité de Control de Cambios (CAB - *Change Advisory Board*) del último trimestre, adjuntando la documentación de evaluación de riesgos, planes de reversión (*rollback*) y pruebas de homologación/QA antes del pase a producción de actualizaciones del software propio o del ERP corporativo.
+* **1. COBIT (Primero):** Antes de revisar servidores o tickets, hay que auditar la gobernanza. Necesitamos confirmar si la directiva de LSG tiene alineados sus planes de TI en Colombia con las exigencias normativas y comerciales que piden los clientes en Estados Unidos, además de cómo priorizan y gestionan el presupuesto tecnológico.
+* **2. ISO/IEC 27001 + NIST CSF (Segundo):** El activo fundamental de LSG es la confianza y la información de terceros. Al auditar con ISO 27001 revisamos que existan políticas claras para mantener la confidencialidad e integridad de esos datos. Nos apoyamos en NIST CSF para evaluar la capacidad técnica de detectar, responder y recuperarse ante incidentes o ciberataques.
+* **3. ITIL (Tercero):** Con la dirección y la seguridad auditadas, nos enfocamos en la operación cotidiana. ITIL sirve para comprobar que la mesa de ayuda, el soporte de infraestructura y el mantenimiento del software funcionen de manera estable y cumplan los tiempos comprometidos en los SLA.
 
 ---
+
+## 5. Evidencias a solicitar por cada marco
+
+### A. Para COBIT (Gobierno y Alineación)
+* **Evidencia 1 (Alineación Estratégica - EDM01/APO02):** Actas de las reuniones del Comité Directivo de TI donde conste la aprobación del plan de inversión en tecnología y su alineación con los objetivos del negocio.
+* **Evidencia 2 (Gestión de Riesgos - APO12):** La matriz de riesgos de TI (IT Risk Register) actualizada, mostrando la priorización de riesgos de ciberseguridad, planes de acción y su revisión por parte de la gerencia.
+
+### B. Para ISO/IEC 27001 + NIST CSF (Seguridad de la Información)
+* **Evidencia 1 (Control de Acceso - Anexo A.9 / PR.AC):** Listado de usuarios y roles asignados en Dynamics 365 y Active Directory, junto con los registros de la última revisión periódica de accesos e historial de autenticación con MFA para usuarios remotos.
+* **Evidencia 2 (Continuidad y Ciberseguridad - Anexo A.17 / RS.RP):** Plan de respuesta a incidentes y el informe del último simulacro de restauración de copias de seguridad / recuperación ante desastres (DRP) realizado en Azure.
+
+### C. Para ITIL (Gestión de Servicios)
+* **Evidencia 1 (Gestión de Incidentes y SLAs):** Reporte mensual extraído de la plataforma de tickets (Jira o ServiceNow) con las métricas de tiempos de respuesta, nivel de resolución en primer contacto y porcentaje de cumplimiento de SLA por cliente.
+* **Evidencia 2 (Gestión de Cambios - Change Enablement):** Actas del Comité de Control de Cambios (CAB) del último trimestre, verificando que los pases a producción en el software o ERP contaron con pruebas de calidad (QA) y plan de reversión (rollback).
